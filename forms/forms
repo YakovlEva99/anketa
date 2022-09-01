@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+<form>
+    <label for ="firstname">
+        <p> First Name:
+    </label>
+     <input id = "firstname" placeholder="Enter your name" name="first name" type="text" ></p>
+     <label for ="lastname">
+        <p> Last Name:
+    </label>
+     <input id = "lastname" placeholder="Enter your last name" name="last name" type="text" ></p>
+     <label for ="password">
+        <p> password
+    </label>
+     <input id = "password" placeholder="Enter your password" name="password" type="password" ></p>
+     <label for ="loginin">
+        <p> Stay logged in
+    </label>
+     <input id = "loginin"  name="login" type="checkbox" ></p>
+     <label for ="radio1">
+        <p> male: 
+    </label>
+     <input id = "radio1"  name="radio" type="radio" ></p>
+     <label for ="radio2">
+        <p> female:
+    </label>
+     <input id = "radio2"  name="radio" type="radio" ></p>
+     <label for ="color">
+        <p> Choose your favorite color: 
+    </label>
+     <input id = "color"  name="color" type="color" ></p>
+     <label for ="submit">
+        <p> submit data: 
+    </label>
+     <input id = "submit"  name="submit" type="submit" value="Нажми!" ></p>
+
+
+</form>
+</body>
+</html>

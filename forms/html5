@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html5</title>
+    <script type="text/javascript">document.createElement("myContainer");</script>
+</head>
+<body>
+<h1>Лекции html5</h1>
+<video width="500" height="300">
+    <source src="video.mp4" type="video/mp4">
+</video>
+<audio controls>
+    <source src="audio.mp4" type="audio/mp3">
+</audio>
+<article>Можно и див и article</article>
+<myContainer>flygyjhhhbygyij</myContainer>
+
+<figure> <img id ="cat" src ="cat.jpg" alt="Котики"data-imageDescription = "Cat with day"> 
+<figcaption>
+    <p>cats</p>
+</figcaption>
+</figure>
+<!--<script type="text/javascript">
+    alert(document.getElementsById("cat").getAttribute("data-imageDescription"));
+</script>-->
+<input type="range" min ="1" max="1000" step="100">
+<p contenteditable="true">Some paragraph!</p>
+<il contenteditable="true">
+    <li>html</li>
+    <li>Css</li>
+    <li>javascript</li>
+    <li>PHP</li>
+</ul>
+</form>
+<form>
+    <p>Placeholder: <input type="text" placeholder="Input spme text here"></p>
+    <p>Autofocus: <input type="text" autofocus></p>
+    <p>Required: <input type="text" required></p>
+    <p>Email: <input type="email"></p>
+    <p>Pattern: <input type="text" pattern="[0-9]"></p>
+    <datalist id = "colors">
+        <option>Red</option>
+        <option>Orange</option>
+        <option>Yellow</option>
+        <option>Green</option>
+    </datalist>
+    <p>Autocomplete: <input type="text" list="colors"></p>
+
+    <p><input type="submit" value="submit"></p>
+</form>
+</body>
+</html>
